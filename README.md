@@ -1,6 +1,6 @@
 # Data Engineering and AWS-Projects
 
-##You can find my AWS projects along with their architectures and a step-by-step explanation of my reasoning behind them. I want to clarify that these projects were ##developed after extensive research and following guides. I have added detailed notes and explanations to aid my own learning.
+## You can find my AWS projects along with their architectures and a step-by-step explanation of my reasoning behind them. I want to clarify that these projects were ## developed after extensive research and following guides. I have added detailed notes and explanations to aid my own learning.
 
 
 
