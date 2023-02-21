@@ -1,0 +1,9 @@
+This is a shell script, written in the Bash programming language, that automates the installation of Apache Kafka and Java on an EC2 instance.
+
+The script begins by using the wget command to download the Kafka binary files from the Apache website, and then uses the tar command to extract the files. The version being downloaded is 3.4.0, which can be changed to a different version if needed.
+
+Next, the script checks if Java is already installed on the EC2 instance by running the type java command. If Java is not already installed, the script uses the yum package manager to install Java 1.8.0 OpenJDK, a popular implementation of the Java Virtual Machine.
+
+The purpose of this script is to streamline the installation process of Kafka and Java on an EC2 instance, saving time and reducing the risk of errors that could occur during a manual installation.
+
+
