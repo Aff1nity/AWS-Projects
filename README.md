@@ -10,7 +10,7 @@
 
 Summary: In this project, we set up an end-to-end data engineering pipeline to collect and process real-time stock market data using Apache Kafka and AWS services such as Glue, Athena, and S3. We created a Kafka topic, produced and consumed data using Python, and stored the data in an S3 bucket. Then, we used Glue Crawler to crawl and create a table in Athena for querying and analysis. The main aim of this project was to learn how to use Kafka and AWS services to build a real-time data processing pipeline for stock market data.
 
-[Extended Explanation](https://github.com/Aff1nity/AWS-Projects/blob/main/Real-Time%20Stock%20Market%20Data%20Engineering%20using%20Apache%20Kafka%20and%20AWS/Reasoning%20and%20Explanation)
+[Extended Explanation](https://github.com/Aff1nity/AWS-Projects/blob/main/Real-Time%20Stock%20Market%20Data%20Engineering%20using%20Apache%20Kafka%20and%20AWS/Stock%20Market%20Project.pdf)
 
 **Architecture**
 ![Architecture](https://github.com/Aff1nity/AWS-Projects/blob/main/Real-Time%20Stock%20Market%20Data%20Engineering%20using%20Apache%20Kafka%20and%20AWS/Stock%20Market%20Project.png)
