@@ -58,6 +58,15 @@ Services Used:
 7.Python programming language
 ```
 
+Airflow Server
+
+![Airflow Server](https://github.com/Aff1nity/AWS-Projects/blob/main/Twitter%20Pipiline/Airflow%20Server.png)
+
+Airflow Code
+
+![Airflow Code](https://github.com/Aff1nity/AWS-Projects/blob/main/Twitter%20Pipiline/Airflow%20Code.png)
+
+
 **Possible improvements**
 
 **Use environment variables**: Storing sensitive information such as API credentials and access tokens directly in the code is not a good security practice. Instead, you can use environment variables to store these values and retrieve them in the code. This will make it easier to manage and update these values without having to modify the code.
