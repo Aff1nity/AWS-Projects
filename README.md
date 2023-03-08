@@ -39,4 +39,27 @@ Services Used:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[Title: Simple Twitter data Pipeline using Airflow()
+[Title: Simple Twitter data Pipeline using Airflow](https://github.com/Aff1nity/AWS-Projects/tree/main/Twitter%20Pipiline)
+
+Summary: In this project, we will extract data using Twitter API, use python to transform data, deploy the code on Airflow/EC2 and save the final result on Amazon S3
+
+**Architecture**
+
+![Architecture](https://github.com/Aff1nity/AWS-Projects/blob/main/Twitter%20Pipiline/Architecture.png)
+
+Services Used:
+```
+1.Airflow
+2.Amazon Elastic Compute Cloud (EC2)
+3.Amazon Simple Storage Service (S3)
+6.Amazon Identity and Access Management (IAM
+7.Python programming language
+```
+
+**Possible improvements**
+
+**Use environment variables**: Storing sensitive information such as API credentials and access tokens directly in the code is not a good security practice. Instead, you can use environment variables to store these values and retrieve them in the code. This will make it easier to manage and update these values without having to modify the code.
+
+**Use a configuration file**: Rather than hardcoding values like API keys or S3 bucket names, you can use a configuration file to store these values. This will make it easier to modify them in the future without having to modify the code.
+
+**Add more functionality**: We can explore other data sources or APIs to expand the scope of your project.
