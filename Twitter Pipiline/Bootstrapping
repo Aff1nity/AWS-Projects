@@ -1,0 +1,25 @@
+#!/bin/bash
+
+sudo apt-get update
+sudo apt install python3-pip
+sudo pip install apache-airflow
+sudo pip install pandas
+sudo pip install s3fs
+sudo pip install tweepy
+
+#Creating folders for the app
+#Modify dag_folder = /home/ubuntu/airflow/dag to /home/ubuntu/airflow/twitter_dag
+
+sudo mkdir /airflow/twitter_dag
+#This is the folder where we will store all the Python files.
+# Create two files at airflow/twitter_dag with both codes
+# Inside each file we will copy and paste our Python codes
+
+cd /airflow/twitter_dag
+sudo touch twitter_etl.py
+sudo nano twitter_etl.py
+#Using echo we would write the whole code. For the sake of brevity, I will not include the code here.
+
+sudo touch twitter_dag.py
+sudo nano twitter_dag.py
+# Same as before with the corresponding Python code
